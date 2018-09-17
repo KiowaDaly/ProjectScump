@@ -21,8 +21,6 @@ class Person
 end
 
 Kiowa = Person.new("Kiowa")
-
-
 20.times() do
   Kiowa.to_s()
   Kiowa.increment_age()
